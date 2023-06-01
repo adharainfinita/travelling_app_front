@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../redux/actions";
 import { useNavigate, Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import {useState } from "react";
 import styles from "../styles/login.module.css";
 
 const Login = ()=>{
