@@ -8,7 +8,7 @@ import styles from "../styles/login.module.css";
 const Register = () =>{
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const {user} = useSelector(state => state);
+    
 
     const [showPassword, setShowPassword] = useState(false);
     const [userData, setUserData] = useState({
