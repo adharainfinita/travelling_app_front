@@ -1,6 +1,6 @@
 import styles from "../styles/LandingPage.module.css";
 import { useNavigate} from "react-router-dom";
-import { useEffect } from 'react';
+
 import { useSelector } from "react-redux";
 
 const LandingPage= () =>{
