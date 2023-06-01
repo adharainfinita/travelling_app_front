@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start
+
+}
+
+.activity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto 5%;
+    width: 800px;
+    background-color: rgba(249, 255, 127, 0.435);
+    border: 1px dashed white;
+}
+
+.value {
+    width: 20%;
+    margin: auto 3%;
+    font-weight: lighter;
+}
+
+.name {
+    width: 25%;
+    margin: auto 0%;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: "Work sans";
+}

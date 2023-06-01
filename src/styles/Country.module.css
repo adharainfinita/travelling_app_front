@@ -1,0 +1,42 @@
+.card {
+    border-radius: 10px;
+    text-align: center;
+    margin: 1% 1%;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(72, 67, 67, 0.84);
+    backdrop-filter: blur(12px);
+    box-shadow: inset
+    0 -3em 3em rgba(6, 25, 78, 0.469),
+    0 0  0 1px rgb(12, 12, 13),
+    0.3em 0.3em 1em rgba(7, 4, 17, 0.737);;
+}
+
+.flag {
+    min-height: min-content;
+    min-width: min-content;
+    width: 150px;
+    height: 80px;
+    border-radius: 2%
+}
+
+.link {
+    text-decoration: none;
+}
+
+.name {
+    min-height: min-content;
+    background-color: rgba(15, 15, 16, 0.684);
+    font-family: "Work sans", Times, serif;
+    font-size: 25px;
+    color: oldlace;
+}
+
+.continent {
+    font-family: "inter";
+    font-weight: lighter;
+    height: 10px;
+    margin: 0 auto;
+    color:rgb(108, 107, 107)
+}
+

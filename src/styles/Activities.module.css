@@ -1,0 +1,38 @@
+.activities {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(208, 202, 202, 0.732);
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1% auto;
+    width: 90%;
+    background-color: rgba(42, 9, 9, 0.526);
+    border-radius: 5px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.button{
+    background-color: rgba(39, 38, 38, 0.721);
+    margin: 1%;
+    padding: 1%;
+    border: none;
+    border-radius: 15%;
+    
+}
+.link{
+    text-decoration: none;
+    font-weight: lighter;
+    color: rgb(195, 195, 31);
+}
+
+.button :hover{
+    font-weight: bolder;
+}

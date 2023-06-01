@@ -1,0 +1,20 @@
+
+
+
+.title {
+    font-family:  'Barlow', sans-serif;
+    color: rgb(181, 176, 167);
+    font-size: 500%;
+}
+
+.button-ingresar {
+    background-color: rgb(195, 195, 31);
+    padding: 2%;
+    border: none;
+    border-radius: 10%;
+    color: rgb(69, 69, 69);
+    
+}
+.link {
+    text-decoration: none;
+}

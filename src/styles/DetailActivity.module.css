@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    font-weight: lighter;
+    padding: 3px;
+}
+.info :hover {
+    font-weight: bolder;
+}
+
+.buttonOne{
+    background: rgba(116, 208, 208, 0.697);
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 30%;
+    margin: 1% 0;
+    font-size: 1vw;
+}
+
+.buttonTwo {
+    background: rgba(208, 197, 116, 0.697);
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 30%;
+    margin: 1%;
+    font-size: 1vw;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(45, 44, 44);
+}
+
+.buttonThree{
+    background: rgba(217, 106, 73, 0.697);
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 30%;
+    margin: 1%;
+    
+    font-size: 1vw;
+}

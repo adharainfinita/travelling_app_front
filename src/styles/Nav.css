@@ -1,0 +1,44 @@
+.Nav  {
+    display: flex;
+    background-image: linear-gradient(#000000ae, #093846e8);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px;
+    border-bottom: solid whitesmoke 1px
+}
+
+.btn{
+    border: hidden;
+    border-radius: 3%;
+    margin: 3px 3px;
+    padding: 5px 5px;
+    background: rgba(32, 27, 47, 0.64);
+    text-decoration: none;
+    color: rgba(253, 245, 230, 0.713);
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.btnHere{
+    border: hidden;
+    border-radius: 3%;
+    margin: 3px 3px;
+    padding: 5px 5px;
+    background: rgba(71, 20, 225, 0.64);
+    text-decoration: none;
+    color: rgba(253, 245, 230, 0.713);
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(253, 245, 230, 0.713);
+}
+
+.btn :hover {
+    color:rgb(24, 82, 110)
+}

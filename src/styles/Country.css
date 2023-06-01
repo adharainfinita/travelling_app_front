@@ -1,0 +1,16 @@
+.card {
+    border-radius: 10px;
+    text-align: center;
+    font-family: monospace;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 200px;
+    width: 300px;
+    background-color: rgba(238, 235, 235, 0.469);
+    backdrop-filter: blur(12px);
+}
+
+.flag {
+    max-width: 200px;
+    max-height: 70%;
+}

@@ -1,0 +1,47 @@
+.menu {
+    margin: 1%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(41, 39, 41, 0.874);
+    border-radius: 10px;
+    padding: 5px;
+    height: 550px;
+    min-height: min-content;
+    width: 200px;
+    min-width: min-content;
+    box-shadow: 3px 1px 3px rgba(13, 14, 14, 0.887);
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.separator {
+    color: blanchedalmond;
+    margin: 10% auto;
+    width: 200px;
+    margin: 6px;
+}
+
+.titles {
+    font-family: "Work sans";
+    font-weight: bolder;
+    color: aquamarine;
+}
+
+.options {
+    color: whitesmoke;
+    font-family: "Work sans";
+    font-weight: lighter;
+    margin:5px;
+}
+
+.selects {
+    box-shadow: 0 3px 3px rgba(80, 90, 99, 0.84);
+    border-radius: 3px;
+    background-color: rgb(28, 183, 177);
+    color: rgb(51, 51, 49);
+}

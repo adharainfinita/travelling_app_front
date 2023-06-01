@@ -1,0 +1,16 @@
+.container {
+    margin: 20%;
+}
+
+
+.image{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 0;
+    animation: escribir 3s  infinite alternate;
+}
+@keyframes escribir {
+    from { left: -40px }
+    to { left: 80px }
+}

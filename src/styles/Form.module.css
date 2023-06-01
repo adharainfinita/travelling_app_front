@@ -1,0 +1,127 @@
+.form {
+    /* background-image: linear-gradient(rgb(28, 27, 27), blue); */
+    margin: 1% auto;
+    padding: 3%;
+    background-color: rgba(39, 38, 38, 0.721);
+    border-radius: 5px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 40%;
+    height: 40%;
+    box-shadow: 3px 1px 3px rgba(13, 14, 14, 0.887);
+}
+
+.dataPreview {
+    background-color: rgba(245, 245, 220, 0.504);
+    backdrop-filter: blur(12px);
+    border-radius: 5px;
+    margin: 1% auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: beige;
+}
+
+.principalTitle{
+    font-family: "Work sans";
+    color: bisque;
+}
+
+.sections {
+    background-color: rgba(25, 25, 24, 0.09);
+    backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.asociatedCountries {
+    background-color: rgba(25, 25, 24, 0.09);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+.selections{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(16, 16, 16);
+    border-radius: 20px;
+    padding: 2%;
+    box-shadow: 3px 1px 3px rgba(13, 14, 14, 0.887);
+}
+.titles{
+    color: aquamarine;
+    font-family: "Inter";
+    letter-spacing: 0.1em;
+    width: 20%;
+
+}
+.label{
+    font-family: "Barlow";
+    font-weight: lighter;
+    color:whitesmoke;
+    
+}
+
+.input {
+    border-radius: 3px;
+    background-color: aquamarine;
+    border: solid 1px rgb(133, 132, 132);
+    width: 70%;
+}
+
+.radio {
+    color: rgba(157, 157, 72, 0.969);
+    font-weight: lighter;
+}
+
+.errors{
+    color: red;
+    font-size: 0.8em;
+}
+
+.countries  {
+    margin-left: 50%;
+    color: grey;
+    font-size: 0.7em;
+    font-weight: lighter;
+}
+
+.selects {
+    box-shadow: 0 3px 3px rgba(80, 90, 99, 0.84);
+    border-radius: 3px;
+    background-color: rgb(28, 183, 177);
+    color: rgb(51, 51, 49);
+    width: 70%;
+}
+
+.buttons{
+    border-radius: 5px;
+    border: solid 1px grey;
+    margin: 2%;
+    padding: 1%;
+}
+
+.buttonSubmit {
+    background-color: rgb(39, 38, 38);
+    margin: 3%;
+    padding: 1%;
+    border: none;
+    border-radius: 15%;
+    color: rgb(195, 195, 31);
+    letter-spacing: 1px;
+}
+
+.cancel{
+    float: right;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(212, 208, 208, 0.721);
+}

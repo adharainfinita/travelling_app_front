@@ -1,0 +1,9 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 500px;
+    width: min-content;
+    max-width: 200px;
+    float: left;
+}

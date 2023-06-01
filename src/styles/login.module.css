@@ -1,0 +1,89 @@
+.form {
+    max-width: 350px;
+    max-height: 700px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 3%;
+    background-color: rgba(39, 38, 38, 0.721);
+    border-radius: 5px;
+    box-shadow: 3px 1px 3px rgba(13, 14, 14, 0.887);
+}
+
+.sections {
+    background-color: rgba(25, 25, 24, 0.09);
+    backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.principalTitle{
+    font-family: "Work sans";
+    color: bisque;
+}
+
+.label{
+    font-family: "Barlow";
+    font-weight: lighter;
+    color:whitesmoke;
+    margin: 3%;
+}
+
+.comment {
+    font-family: "Barlow";
+    font-size: 0.8em;
+    font-weight: lighter;
+    color: gray;
+}
+
+.input {
+    border-radius: 3px;
+    background-color: aquamarine;
+    border: solid 1px rgb(133, 132, 132);
+    width: 70%;
+}
+
+.eyeButtons{
+    border: none;
+    background: none;
+    cursor:wait;
+    border-radius: 50%;
+    margin: 1%;
+}
+
+.link {
+    text-decoration: none;
+    color:rgb(195, 195, 31)
+}
+
+.img {
+    height: 30px;
+    width: 50px;
+    border-radius: 50%;
+    filter: invert(100%);
+}
+
+.buttonSubmit {
+    background-color: rgb(195, 195, 31);
+    font-size: larger;
+    margin: 3%;
+    padding: 1%;
+    border: none;
+    border-radius: 15%;
+    color: rgb(39, 38, 38);
+}
+
+.errors{
+    color: rgb(199, 66, 66);
+    font-size: 1em;
+}
+
+.cancel{
+    float: right;
+    /* margin: 0 auto; */
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(212, 208, 208, 0.721);
+}
