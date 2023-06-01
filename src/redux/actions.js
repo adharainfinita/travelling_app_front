@@ -79,7 +79,7 @@ export const filterCountries = (value)=>{
 export const getAllActivities = ()=>{
     return async function(dispatch){
         try {
-            const {data} = await axios(URL_BASE+URL_ACTIVITIES);
+            const {data} = await axios(`${URL_BASE}${URL_ACTIVITIES}`);
             if(data){
                 return dispatch({type: GET_ACTIVITIES, payload: data})
             }
@@ -97,7 +97,7 @@ export const postActivity = ({name, difficulty, duration, season, countries, use
     return async function(dispatch){
         console.log({name, difficulty, duration, season, countries});
         try {
-            const {data} = await axios.post(URL_BASE+URL_ACTIVITIES, {
+            const {data} = await axios.post(`${URL_BASE}${URL_ACTIVITIES}`, {
                 name: name,
                 difficulty: difficulty,
                 duration: duration,
@@ -167,7 +167,7 @@ export const deleteActivity = (id) =>{
 export const login= ({email, password})=>{
     return async function(dispatch){
         try{
-            const response = await axios(`${URL_BASE}+${URL_USER}?email=${email}&password=${password}`)
+            const response = await axios(`${URL_BASE}${URL_USER}?email=${email}&password=${password}`)
             if(response.data) {
                 return dispatch({type: LOGIN, payload: response.data})
             }
